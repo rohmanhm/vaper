@@ -1,0 +1,61 @@
+{
+  "name": "vaper",
+  "description": "Any value replacer",
+  "version": "0.0.1",
+  "main": "dist/vaper.js",
+  "module": "src/index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Roman Masyhar",
+    "email": "mhrohman@live.com",
+    "url": "https://github.com/rohmanhm"
+  },
+  "files": [
+    "src",
+    "dist"
+  ],
+  "repository": "rohmanhm/vaper",
+  "devDependencies": {
+    "ava": "^0.19.1",
+    "babel-cli": "^6.24.1",
+    "babel-eslint": "^7.2.2",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-preset-latest": "^6.24.1",
+    "babelrc-rollup": "^3.0.0",
+    "capitalize": "^1.0.0",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.1.3",
+    "eslint-plugin-import": "^2.2.0",
+    "rollup": "^0.41.6",
+    "rollup-plugin-babel": "^2.7.1",
+    "rollup-plugin-uglify": "^1.0.2",
+    "rollup-watch": "^3.2.2",
+    "xo": "^0.18.1"
+  },
+  "dependencies": {
+    "lodash.isarray": "^4.0.0",
+    "lodash.isobject": "^3.0.2"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -c -w",
+    "test": "xo && ava"
+  },
+  "xo": {
+    "extends": "airbnb-base",
+    "plugins": [
+      "import"
+    ],
+    "rules": {
+      "unicorn/filename-case": [
+        "error",
+        {
+          "case": "camelCase"
+        }
+      ]
+    }
+  },
+  "ava": {
+    "verbose": true
+  }
+}
