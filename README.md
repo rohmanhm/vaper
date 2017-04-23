@@ -28,5 +28,9 @@ vaper('foo', 'bar')('foo') // return 'bar'
 
 > it also support object and array recursively
 
+## Related
+
+* [Nullfined](https://github.com/rohmanhm/nullfined) - Convert any null value to undefined
+
 ## License
 MIT © [Roman Masyhar](https://github.com/rohmanhm)
