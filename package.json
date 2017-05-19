@@ -28,7 +28,7 @@
     "eslint-plugin-import": "^2.2.0",
     "rollup": "^0.41.6",
     "rollup-plugin-babel": "^2.7.1",
-    "rollup-plugin-uglify": "^1.0.2",
+    "rollup-plugin-uglify": "^2.0.0",
     "rollup-watch": "^3.2.2",
     "xo": "^0.18.1"
   },
