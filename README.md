@@ -17,7 +17,7 @@ yarn add vaper
 
 ## Usage
 ```javascript
-vaper(fromValue, toValue)(value)
+vaper(defaultValue, newValue)(source)
 ```
 
 ## Example
