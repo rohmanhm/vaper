@@ -1,12 +1,13 @@
 {
   "name": "vaper",
-  "description": "Any value replacer",
-  "version": "0.0.1",
-  "main": "dist/vaper.js",
-  "module": "src/index.js",
+  "description": "Value replacer any type",
+  "version": "1.0.0",
+  "main": "dist/vaper.umd.js",
+  "module": "dist/vaper.es5.js",
+  "typings": "types/index.d.ts",
   "license": "MIT",
   "author": {
-    "name": "Roman Masyhar",
+    "name": "MH Rohman Masyhar",
     "email": "mhrohman@live.com",
     "url": "https://github.com/rohmanhm"
   },
@@ -16,45 +17,30 @@
   ],
   "repository": "rohmanhm/vaper",
   "devDependencies": {
-    "ava": "^0.25.0",
-    "babel-cli": "^6.24.1",
-    "babel-eslint": "^8.0.0",
-    "babel-plugin-external-helpers": "^6.22.0",
-    "babel-preset-latest": "^6.24.1",
-    "babelrc-rollup": "^3.0.0",
-    "capitalize": "^1.0.0",
-    "eslint": "^5.0.0",
-    "eslint-config-airbnb-base": "^13.0.0",
-    "eslint-plugin-import": "2.9.0",
-    "rollup": "^0.64.0",
-    "rollup": "^0.64.0",
-    "rollup-plugin-babel": "^3.0.0",
-    "rollup-plugin-uglify": "^4.0.0",
+    "@types/lodash.isarray": "^4.0.5",
+    "@types/lodash.isobject": "^3.0.5",
+    "ava": "^1.2.1",
+    "rollup": "^1.1.2",
+    "rollup-plugin-commonjs": "^9.2.0",
+    "rollup-plugin-node-resolve": "^4.0.0",
+    "rollup-plugin-sourcemaps": "^0.4.2",
+    "rollup-plugin-typescript2": "^0.19.2",
+    "rollup-plugin-uglify": "^6.0.2",
     "rollup-watch": "^4.0.0",
-    "xo": "^0.22.0"
+    "tslib": "^1.9.3",
+    "tslint": "^5.12.1",
+    "tslint-config-standard": "^8.0.1",
+    "typescript": "^3.3.3"
   },
   "dependencies": {
+    "lodash.camelcase": "^4.3.0",
     "lodash.isarray": "^4.0.0",
     "lodash.isobject": "^3.0.2"
   },
   "scripts": {
     "build": "rollup -c",
     "watch": "rollup -c -w",
-    "test": "xo && ava"
-  },
-  "xo": {
-    "extends": "airbnb-base",
-    "plugins": [
-      "import"
-    ],
-    "rules": {
-      "unicorn/filename-case": [
-        "error",
-        {
-          "case": "camelCase"
-        }
-      ]
-    }
+    "test": "ava"
   },
   "ava": {
     "verbose": true
