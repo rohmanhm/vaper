@@ -11,10 +11,6 @@
     "email": "mhrohman@live.com",
     "url": "https://github.com/rohmanhm"
   },
-  "files": [
-    "src",
-    "dist"
-  ],
   "repository": "rohmanhm/vaper",
   "devDependencies": {
     "@types/lodash.isarray": "^4.0.5",
