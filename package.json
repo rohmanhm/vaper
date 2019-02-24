@@ -1,7 +1,7 @@
 {
   "name": "vaper",
   "description": "Value replacer any type",
-  "version": "1.0.0-0",
+  "version": "1.0.1-0",
   "main": "dist/vaper.umd.js",
   "module": "dist/vaper.es5.js",
   "typings": "types/index.d.ts",
