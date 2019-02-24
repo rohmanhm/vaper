@@ -16,6 +16,7 @@
     "@types/lodash.isarray": "^4.0.5",
     "@types/lodash.isobject": "^3.0.5",
     "ava": "^1.2.1",
+    "lodash.camelcase": "^4.3.0",
     "rollup": "^1.1.2",
     "rollup-plugin-commonjs": "^9.2.0",
     "rollup-plugin-node-resolve": "^4.0.0",
@@ -35,6 +36,7 @@
   "scripts": {
     "build": "rollup -c",
     "watch": "rollup -c -w",
+    "prepare": "npm run build",
     "test": "ava"
   },
   "ava": {
