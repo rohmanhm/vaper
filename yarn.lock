@@ -337,10 +337,10 @@
   dependencies:
     "@types/lodash" "*"
 
-"@types/lodash.isobject@^3.0.5":
-  version "3.0.5"
-  resolved "https://registry.yarnpkg.com/@types/lodash.isobject/-/lodash.isobject-3.0.5.tgz#062ade4d6c37d4ff42b177551825f381b93af2c7"
-  integrity sha512-9r9XRQysWsssBeQW3T29ihlx26wNyOF0IDDooQ+YmzMidQbZnI5bA3Dhqs1v9pPqsrDQ0pXm4nMGEgLY6rKHaQ==
+"@types/lodash.isobject@^3.0.6":
+  version "3.0.6"
+  resolved "https://registry.yarnpkg.com/@types/lodash.isobject/-/lodash.isobject-3.0.6.tgz#6e19937a4d16eb6284255fe46118df8009a4b5c1"
+  integrity sha512-2lwGbaIXMR5hjO56nCvI7W6bmY3Y3uJvbHWqO9MtOE1StyhZ1VtLINQ0MLC87rrB3zHHp+u4DHeal70rx1kvjw==
   dependencies:
     "@types/lodash" "*"
 
