@@ -330,10 +330,10 @@
   resolved "https://registry.yarnpkg.com/@types/estree/-/estree-0.0.39.tgz#e177e699ee1b8c22d23174caaa7422644389509f"
   integrity sha512-EYNwp3bU+98cpU4lAWYYL7Zz+2gryWH1qbdDTidVd6hkiR6weksdbMadyXKXNPEkQFhXM+hVO9ZygomHXp+AIw==
 
-"@types/lodash.isarray@^4.0.5":
-  version "4.0.5"
-  resolved "https://registry.yarnpkg.com/@types/lodash.isarray/-/lodash.isarray-4.0.5.tgz#53bd02f0e4a0b33aec5075459d27d5c1af49a411"
-  integrity sha512-vh1/iuTAqerb/jSopl9Tsc+emxrCZKWRU9iUbVgF1/Gan1WyqBgEeLXSBPjYH2phT9QDvWmTystg6zv7W8haZw==
+"@types/lodash.isarray@^4.0.6":
+  version "4.0.6"
+  resolved "https://registry.yarnpkg.com/@types/lodash.isarray/-/lodash.isarray-4.0.6.tgz#5979c4301508d9571dfb740b81a2f172b7382ade"
+  integrity sha512-lXLDKJ4jWhtAd6EVQOGHwX8iKJlITY5J+HAgim6oglepJrPXAv7hdoN7hrJSwpOYZ7oEpMng+bPasl4LZWp4GQ==
   dependencies:
     "@types/lodash" "*"
 
