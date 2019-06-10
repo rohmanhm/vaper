@@ -15,7 +15,7 @@
   "devDependencies": {
     "@types/lodash.isarray": "^4.0.5",
     "@types/lodash.isobject": "^3.0.5",
-    "ava": "^1.2.1",
+    "ava": "^2.1.0",
     "lodash.camelcase": "^4.3.0",
     "rollup": "^1.5.0",
     "rollup-plugin-commonjs": "^9.2.0",
